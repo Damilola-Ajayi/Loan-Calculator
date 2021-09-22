@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div id="form">
+
+        <h1>Simple loan calculator</h1>
+
+        <div class="holder">
+            <div>
+                <label for="loan-amt">Loan Amount</label>
+            </div>
+    
+            <div>
+                <input id="loan-amt" class="input-fields" type="text">
+            </div>
+        </div>
+        
+        <div class="holder">
+            <div>
+                <label for ="rate">Interest Rate</label>
+            </div>
+    
+            <div>
+                <input id="rate" class="input-fields" type="text">
+            </div>
+        </div>
+        
+        <div class="holder">
+            <div>
+                <label for="time">Loan Duration</label>
+            </div>
+            <div>
+                <input id="time" class="input-fields" type="text">
+            </div>
+        </div>
+        
+
+        <button id="btn" onclick="multiply()">Calculate</button>
+
+        <div>
+            <input id="result" type="text" disabled>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

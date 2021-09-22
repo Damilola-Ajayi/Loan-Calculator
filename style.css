@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f4f1de;
+    font-family: roboto;
+    font-weight: 400;
+    
+}
+
+#form{
+    background-color: teal;
+    width: 50%;
+    height: 500px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.holder{
+    margin-bottom: 30px;
+}
+
+.input-fields{
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    color: 000;
+    text-align: center;
+}
+
+#btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background:1px solid #fff;
+    color: teal;
+    font-size: 18px;
+    
+}
+
+#btn:hover{
+    background-color: teal;
+    color: #fff;
+    border: 1px solid #fffg;
+}
+
+#result{
+    width: 500px;
+    margin-top: 20px;
+    border: none;
+    background-color: teal;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media only screen and (max-width:768px) {
+   body{
+       width: 90%;
+       margin: 60px auto;
+       background-color: teal;
+    }
+   
+   
+    #form{
+        width: 90%;
+    }
+
+    .input-fields{
+        width: 200px;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    #result{
+        width: 350px;
+        
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
